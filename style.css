@@ -1,0 +1,25 @@
+.controls {
+    padding: 16px 0 6px;
+    overflow-x: hidden;
+  }
+  .controls label {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 14px;
+  }
+
+  /* .longread {
+    min-height: calc(100vh - 237px);
+    padding-bottom: 1em;
+    font-size: 14px;
+  } */
+
+  .longread h1 {
+    margin: 1em 0 0.6em;
+    line-height: 1.2;
+  }
+
+  .longread p {
+    margin: 0 0 0.8em;
+    line-height: 1.6;
+  }
