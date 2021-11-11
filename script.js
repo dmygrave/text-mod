@@ -9,7 +9,7 @@ colorSetting.onchange = function () {
     longread.style.color = colorSetting.value
 }
 
-sizeSetting.onchange = function () {
+sizeSetting.oninput = function () {
     pixels.textContent = sizeSetting.value
     longread.style.fontSize = sizeSetting.value + 'px'
 }
