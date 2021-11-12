@@ -19,6 +19,8 @@ password.oninput = function () {
       securityBar.style.backgroundColor = 'red'         //для покраски шкалы в красный цвет если пароль короткий
      } else if (passLength >5 && passLength <10) {      // альтернативная ветка else if с двойным условием и логическим И для дальнейшей окраски
       securityBar.style.backgroundColor = 'gold'
+     } else {
+         securityBar.style.backgroundColor = 'green'   //если оба условия не "выполняются" , то будет зеленым
      }
 
 }
