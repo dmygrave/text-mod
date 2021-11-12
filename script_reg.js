@@ -15,4 +15,10 @@ showPassword.onchange = function () {
 password.oninput = function () {
      let passLength = password.value.length
      securityBar.style.width = passLength * 10 + '%'     //умножаем длину пароля на 10 , чтобы выводить полоску под строкой ввода пароля в зависимости от его длины для наглядности  
+     if (passLength <= 5) {
+      securityBar.style.backgroundColor = 'red'         //для покраски шкалы в красный цвет если пароль короткий
+     } else if (passLength >5 && passLength <10) {      // альтернативная ветка else if с двойным условием и логическим И для дальнейшей окраски
+      securityBar.style.backgroundColor = 'gold'
+     }
+
 }
