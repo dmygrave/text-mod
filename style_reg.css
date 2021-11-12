@@ -1,0 +1,58 @@
+.reg-label {
+    z-index: 1;
+    margin-right: auto;
+    margin-bottom: -6px;
+    margin-left: -6px;
+    padding: 2px 6px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .name,
+.password {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-color: transparent;
+  font: inherit;
+  font-size: 14px;
+  line-height: 30px;
+  outline-offset: 0;
+  border: 1px solid;
+}
+
+.password {
+    padding-bottom: 4px;
+}
+
+
+.name:focus::placeholder,
+.password:focus::placeholder {
+  font-size: 0;
+}
+
+
+.checkbox-label {
+    position: relative;
+    margin: 4px auto 16px 0;
+    padding: 4px 24px;
+  }
+
+  .show-password:focus + .checkbox-label::before {
+    outline: auto;
+    outline-width: 4px;
+  }
+
+  .security-bar {
+    height: 4px;
+    width: 0;
+    background-color: mediumpurple;
+  }
+
+  .name::placeholder,
+.password::placeholder {
+  color: #aaaaaa;
+  font: inherit;
+  font-size: 14px;
+  font-style: italic;
+}

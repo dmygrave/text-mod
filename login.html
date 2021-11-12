@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест регистрации</title>
+    <link rel="stylesheet" href="style_reg.css">
+</head>
+<body>
+    <main class="main-login">
+        <div class="container_2">
+            <h1 class="heading">Регистрация</h1>
+            <label class="reg-label" for="reg-name">логин</label>
+            <input class="name" type="text" value="Типа логин како-то" required>
+            <label class="reg-label" for="reg-pass">пароль</label>
+            <input class="password" type="password" id = "reg-pass" placeholder="**********" required >
+            <div class="security">
+                <div class="security-bar"></div>
+            </div>
+            <input class="show-password visually-hidden" type="checkbox" id="show-pass">
+            <label class="checkbox-label" for="show-pass">Показать пароль</label>
+            <button class="button" type="submit">Зарегестрироваться</button>
+        </div>
+    </main>
+    <script src="script_reg.js"></script>
+</body>
+</html>
