@@ -46,7 +46,7 @@
   .security-bar {
     height: 4px;
     width: 0;
-    background-color: mediumpurple;
+    background-color: #e02141;
   }
 
   .name::placeholder,

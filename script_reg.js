@@ -13,5 +13,6 @@ showPassword.onchange = function () {
 }
 
 password.oninput = function () {
-     securityBar.style.width = password.value.length * 10 + '%'     //умножаем длину пароля на 10 , чтобы выводить полоску под строкой ввода пароля в зависимости от его длины для наглядности  
+     let passLength = password.value.length
+     securityBar.style.width = passLength * 10 + '%'     //умножаем длину пароля на 10 , чтобы выводить полоску под строкой ввода пароля в зависимости от его длины для наглядности  
 }
